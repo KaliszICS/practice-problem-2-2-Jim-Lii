@@ -1,8 +1,12 @@
 
 class Notes {
 	public static void main(String[] args) {
-
+		printPersonalGreeting("Mr. Kalisz");
+		System.out.println(repeatWord("Word", 4));
+		// repeatWord(4, "Word"); //wrong order
 	}
+
+	//void functions - return nothing!
 
 	//void functions, no parameter
 	public static void printGreeting() {
